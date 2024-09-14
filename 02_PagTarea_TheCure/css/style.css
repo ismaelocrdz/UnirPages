@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(117, 45, 45);
+  color: white;
+}
+
+header .logo {
+  display: flex;
+  justify-content: left;
+}
+
+section {
+  margin: 1rem 2rem;
+  width: 67%;
+  color: #fff;
+  font-weight: 100;
+  text-align: justify;
+}
+
+article {
+  margin: 1rem 2rem;
+  width: 43%;
+  color: #fff;
+  font-weight: 100;
+  text-align: justify;
+}
+
+.sangrado {
+  font-size: medium;
+  text-indent: 25px;
+  text-align: justify;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 3px solid #cc73a8;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #c94047cc;
+  color: #e7c769 !important;
+}
+
+.marco {
+  width: 100%;
+  margin: 20px 0 30px 0;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(204, 115, 168, 0.5);
+}
+
+.marcoInterno {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;  
+}
+
+input {
+  width: 80%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer nav {
+  overflow: hidden;
+  background-color: rgb(204, 115, 168);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer nav a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background: #c93f47;
+  color: #e7c769;
+
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+#Video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -100;
+}
+
+/*
+https://es.wikipedia.org/wiki/The_Cure
